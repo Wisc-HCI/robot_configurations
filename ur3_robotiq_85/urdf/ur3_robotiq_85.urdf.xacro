@@ -5,6 +5,6 @@
 
 <!-- add any joints/links required to connect the two -->
 
-<xacro:include filename="$(find robotiq_85_gripper)/urdf/robotiq_85_gripper.xacro" />
+<xacro:include filename="$(find robotiq_85_description)/urdf/robotiq_85_gripper.xacro" />
 
 </robot>
