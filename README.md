@@ -1,2 +1,2 @@
-# robot_configurations
+# Robot Configurations
 Pre-assembled robot configurations
