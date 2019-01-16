@@ -1,0 +1,11 @@
+controller_list:
+  - name: ""
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    joints:
+      - simple_arm_shoulder_pan_joint
+      - simple_arm_shoulder_lift_joint
+      - simple_arm_elbow_joint
+      - simple_arm_wrist_1_joint
+      - simple_arm_wrist_2_joint
+      - simple_arm_wrist_3_joint
