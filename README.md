@@ -1,4 +1,4 @@
-# Universal Robot
+# Universal Robot With Gripper
 
 [![Build Status](http://build.ros.org/job/Kdev__universal_robot__ubuntu_xenial_amd64/badge/icon)](http://build.ros.org/job/Kdev__universal_robot__ubuntu_xenial_amd64)
 
