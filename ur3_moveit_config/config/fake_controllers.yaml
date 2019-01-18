@@ -1,4 +1,7 @@
 controller_list:
+  - name: fake_gripper_controller
+    joints:
+        - simple_gripper_robotiq_85_left_knuckle_joint
   - name: fake_manipulator_controller
     joints:
         - simple_arm_shoulder_pan_joint
