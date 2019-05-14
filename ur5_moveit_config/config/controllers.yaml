@@ -3,9 +3,15 @@ controller_list:
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
     joints:
-      - simple_arm_shoulder_pan_joint
-      - simple_arm_shoulder_lift_joint
-      - simple_arm_elbow_joint
-      - simple_arm_wrist_1_joint
-      - simple_arm_wrist_2_joint
-      - simple_arm_wrist_3_joint
+      - shoulder_pan_joint
+      - shoulder_lift_joint
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
+  - name: "gripper"
+    action_ns: gripper_command
+    type: GripperCommand
+    default: true
+    joints:
+      - robotiq_85_left_knuckle_joint
