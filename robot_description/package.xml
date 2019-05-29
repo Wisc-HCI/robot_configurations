@@ -3,7 +3,7 @@
   <name>robot_description</name>
   <version>1.0.0</version>
   <description>
-      URDF description for Wisc-HCI
+      custom URDFs for Wisc-HCI robots
   </description>
 
   <author></author>
