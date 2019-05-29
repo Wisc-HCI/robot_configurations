@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>robot_description</name>
+  <version>1.0.0</version>
+  <description>
+      URDF description for Wisc-HCI
+  </description>
+
+  <author></author>
+  <maintainer email=""></maintainer>
+
+  <license>BSD</license>
+
+  <url type="website"></url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>urdf</run_depend>
+  <run_depend>xacro</run_depend>
+
+  <export>
+  </export>
+</package>
