@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <name>robot_configurations</name>
+  <version>1.0.0</version>
+  <description>Robot Configurations Package</description>
+  <maintainer email="todo@todo.todo"></maintainer>
+  <license>BSD</license>
+
+  <url type="repository"></url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>robot_descriptions</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
