@@ -18,7 +18,6 @@ dependencies should not be required for catkin_make.
 
 ## TODO
 - Update mico-robotiq moveit config meshes and urdf to robot description
-- fix broken links to point toward robot_description (rename robot_description to robot_descriptions)
 - remove model.pdf ?
 - create a change-log
 - finish README documentation

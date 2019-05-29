@@ -166,7 +166,7 @@
         <link name="${prefix}_link_6">
           <visual>
             <geometry>
-              <mesh filename="package://m1n6s_robotiq85_moveit_config/meshes/${link_6_mesh}.dae" />
+              <mesh filename="package://robot_descriptions/meshes/kinova_robotiq_coupler/${link_6_mesh}.dae" />
             </geometry>
             <material name="carbon_fiber">
               <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
@@ -174,7 +174,7 @@
           </visual>
           <collision>
             <geometry>
-              <mesh filename="package://m1n6s_robotiq85_moveit_config/meshes/${link_6_mesh}.stl" />
+              <mesh filename="package://robot_descriptions/meshes/kinova_robotiq_coupler/${link_6_mesh}.stl" />
             </geometry>
           </collision>
           <xacro:kinova_inertial mesh_no="${link_6_mesh_no}"/>
