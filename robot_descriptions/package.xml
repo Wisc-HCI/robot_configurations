@@ -3,15 +3,15 @@
   <name>robot_descriptions</name>
   <version>1.0.0</version>
   <description>
-      custom URDFs for Wisc-HCI robots
+      Custom URDFs for Wisc-HCI robots
   </description>
 
-  <author></author>
+  <author>Wisc-HCI</author>
   <maintainer email="todo@todo.todo"></maintainer>
 
   <license>BSD</license>
 
-  <url type="website"></url>
+  <url type="repository">https://github.com/Wisc-HCI/robot_configurations</url>
 
   <buildtool_depend>catkin</buildtool_depend>
   <run_depend>urdf</run_depend>

@@ -1,16 +1,16 @@
 <package>
 
   <name>ur3_robotiq85_moveit_config</name>
-  <version>1.2.1</version>
+  <version>1.0.0</version>
   <description>
      Package with all the configuration and launch files for using the ur3+robotiq85 with the MoveIt Motion Planning Framework
   </description>
-  <author></author>
+  <author>Wisc-HCI</author>
   <maintainer email="todo@todo.todo"></maintainer>
 
   <license>BSD</license>
 
-  <url type="website"></url>
+  <url type="repository">https://github.com/Wisc-HCI/robot_configurations</url>
 
   <run_depend>moveit_ros_move_group</run_depend>
   <run_depend>moveit_planners_ompl</run_depend>
