@@ -1,19 +1,16 @@
 <package>
 
-  <name>ur3_moveit_config</name>
+  <name>ur3_robotiq85_moveit_config</name>
   <version>1.2.1</version>
   <description>
-     An automatically generated package with all the configuration and launch files for using the ur3 with the MoveIt Motion Planning Framework
+     An automatically generated package with all the configuration and launch files for using the ur3+robotiq85 with the MoveIt Motion Planning Framework
   </description>
-  <author>Felix Messmer</author>
-  <maintainer email="nhg@ipa.fhg.de">Nadia Hammoudeh Garcia</maintainer>
-  <maintainer email="g.a.vanderhoorn@tudelft.nl">G.A. vd. Hoorn</maintainer>
-  
+  <author></author>
+  <maintainer email=""></maintainer>
+
   <license>BSD</license>
 
-  <url type="website">http://moveit.ros.org/</url>
-  <url type="bugtracker">https://github.com/ros-planning/moveit_setup_assistant/issues</url>
-  <url type="repository">https://github.com/ros-planning/moveit_setup_assistant</url>
+  <url type="website"></url>
 
   <run_depend>moveit_ros_move_group</run_depend>
   <run_depend>moveit_planners_ompl</run_depend>
@@ -28,5 +25,5 @@
 
   <test_depend>roslaunch</test_depend>
   <buildtool_depend>catkin</buildtool_depend>
-  
+
 </package>
