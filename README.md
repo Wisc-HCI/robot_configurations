@@ -17,8 +17,6 @@ dependencies should not be required for catkin_make.
   - Wisc-HCI/robotiq_85_gripper
 
 ## TODO
-- Update mico-robotiq moveit config meshes and urdf to robot description
-- remove model.pdf ?
 - create a change-log
+- add license
 - finish README documentation
-- package.xml documentation cleaned up (also correct dependencies)
