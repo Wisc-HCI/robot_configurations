@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>robot_description</name>
+  <name>robot_descriptions</name>
   <version>1.0.0</version>
   <description>
       custom URDFs for Wisc-HCI robots
