@@ -33,7 +33,17 @@ dependencies should not be required for catkin_make to successfully build.
   - [Wisc-HCI/robotiq_85_gripper](https://github.com/Wisc-HCI/robotiq_85_gripper)
   - [Kinovarobotics/kinova-ros](https://github.com/Kinovarobotics/kinova-ros)
 
+## Todo
+- Create relaxed ik ur3 urdf
+- Create relaxed ik m1n6s300 urdf
+- Create relaxed ik m1n6s robotiq 85 urdf
+
 ## Changelog
+
+### 1.0.1 - 2019-05-29
+### Added
+- Added relaxed-ik usable urdfs and supporting urdfs with robotiq 85 gripper
+- Added Todo field in README
 
 ### 1.0.0 - 2019-05-29
 #### Added
