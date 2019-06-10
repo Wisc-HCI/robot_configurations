@@ -51,6 +51,7 @@ dependencies should not be required for catkin_make to successfully build.
 
 ### Changed
 - Updating README with optional dependencies
+- Now providing relaxed-ik support for Mico w/ 3-Finger grippers
 
 ### 1.0.0 - 2019-05-29
 #### Added
