@@ -22,6 +22,7 @@ dependencies should not be required for catkin_make to successfully build.
 - UR 5 + Robotiq 85
 - UR 10 + Robotiq 85
 - Kinova Mico + Kinova 2-Finger
+- Kinova Mico + Kinova 3-Finger
 - Kinova Mico + Robotiq 85
 
 ## Dependencies
@@ -32,6 +33,9 @@ dependencies should not be required for catkin_make to successfully build.
 - Kinova Mico
   - [Wisc-HCI/robotiq_85_gripper](https://github.com/Wisc-HCI/robotiq_85_gripper)
   - [Kinovarobotics/kinova-ros](https://github.com/Kinovarobotics/kinova-ros)
+- General
+  - (optional) [moveit](http://wiki.ros.org/moveit)
+  - (optional) [uwgraphics/relaxed_ik](https://github.com/uwgraphics/relaxed_ik)
 
 ## Todo
 - Create relaxed ik ur3 urdf
@@ -40,10 +44,13 @@ dependencies should not be required for catkin_make to successfully build.
 
 ## Changelog
 
-### 1.0.1 - 2019-05-29
+### 1.0.1 - 2019-09-29
 ### Added
 - Added relaxed-ik usable urdfs and supporting urdfs with robotiq 85 gripper
 - Added Todo field in README
+
+### Changed
+- Updating README with optional dependencies
 
 ### 1.0.0 - 2019-05-29
 #### Added
