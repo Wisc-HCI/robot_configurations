@@ -7,8 +7,7 @@ allow one to get started using Relaxed-IK.
 Robot configurations are stored as directories with a collision file, urdf, and setup file.
 In order to setup Relaxed-IK these files need to copied into the Relaxed-IK package.
 
-Navigate to `relaxed_ik/src/` then overwrite setup.py with one provided. Note
-you will need to change the name from `start_here_<robot>.py` to `start_here.py`.
+Navigate to `relaxed_ik/src/` then overwrite setup.py with one provided.
 
 Then copy the collision file to `relaxed_ik/src/RelaxedIK/Config/collision_files/`
 and copy the urdf to `relaxed_ik/src/RelaxedIK/urdfs/`.
@@ -32,10 +31,9 @@ You are now ready to use Relaxed-IK!
 
 ## Ready
 
-- UR5
-
 ## In Progress
 
+- UR5
 - UR3
 - Mico
 - Mico2

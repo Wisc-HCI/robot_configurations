@@ -48,21 +48,21 @@ or negative experiences in using it.
 # Step 1b: Please set the following variable to the file name of your robot urdf.  For example, for the
 #   ur5 robot urdf already in the urdfs folder, this variable would read 'ur5.urdf'
 #   ex: urdf_file_name = 'ur5.urdf'
-urdf_file_name = 'urdf_ur5.xacro'
+urdf_file_name = 'mico3.urdf'
 ######################################################################################################
 
 
 ######################################################################################################
 # Step 1c: Please provide the fixed frame name.  This will be the root link name in the urdf
 #   ex: fixed_frame  = 'base_link'
-fixed_frame = 'base_link'
+fixed_frame = 'root'
 ######################################################################################################
 
 ######################################################################################################
 # Step 1d: At the end of this walk-through, there will be a central yaml file automatically generated that
 #   will contain information about your robot setup.  Please provide a name for that file.
 #   ex: info_file_name = 'ur5_info.yaml'
-info_file_name = 'info_ur5.yaml'
+info_file_name = 'info_mico3.yaml'
 ######################################################################################################
 
 
@@ -89,7 +89,7 @@ info_file_name = 'info_ur5.yaml'
 #                'LEFT_WRIST_PITCH', 'LEFT_WRIST_YAW_2'] ]
 #   example 2 shows what this would be for a single end-effector robot, specifically using the UR5 robot
 #   ex2: [ ['shoulder_pan_joint', 'shoulder_lift_joint', 'elbow_joint', 'wrist_1_joint', 'wrist_2_joint', 'wrist_3_joint'] ]
-joint_names =  [ ['shoulder_pan_joint', 'shoulder_lift_joint', 'elbow_joint', 'wrist_1_joint', 'wrist_2_joint', 'wrist_3_joint'] ]
+joint_names =  [ [ 'm1n6s200_joint_1', 'm1n6s200_joint_2', 'm1n6s200_joint_3', 'm1n6s200_joint_4', 'm1n6s200_joint_5', 'm1n6s200_joint_6' ] ]
 ######################################################################################################
 
 
@@ -109,7 +109,7 @@ joint_names =  [ ['shoulder_pan_joint', 'shoulder_lift_joint', 'elbow_joint', 'w
 #   ex1: [ 'WAIST', 'RIGHT_SHOULDER_PITCH', 'RIGHT_SHOULDER_ROLL', 'RIGHT_SHOULDER_YAW', 'RIGHT_ELBOW', 'RIGHT_WRIST_YAW',
 #               'RIGHT_WRIST_PITCH', 'RIGHT_WRIST_YAW_2','LEFT_SHOULDER_PITCH', 'LEFT_SHOULDER_ROLL', 'LEFT_SHOULDER_YAW',
 #               'LEFT_ELBOW', 'LEFT_WRIST_YAW', 'LEFT_WRIST_PITCH', 'LEFT_WRIST_YAW_2' ]
-joint_ordering =  ['shoulder_pan_joint', 'shoulder_lift_joint', 'elbow_joint', 'wrist_1_joint', 'wrist_2_joint', 'wrist_3_joint']
+joint_ordering =  [ 'm1n6s200_joint_1', 'm1n6s200_joint_2', 'm1n6s200_joint_3', 'm1n6s200_joint_4', 'm1n6s200_joint_5', 'm1n6s200_joint_6' ]
 ######################################################################################################
 
 
@@ -124,7 +124,7 @@ joint_ordering =  ['shoulder_pan_joint', 'shoulder_lift_joint', 'elbow_joint', '
 #   ex1: ee_fixed_joints = ['RIGHT_HAND', 'LEFT_HAND']
 #   For example 2, using the UR5, this is a single chain robot, so it will only have a single end-effector joint
 #   ex2: ee_fixed_joints = ['ee_fixed_joint']
-ee_fixed_joints = ['ee_fixed_joint']
+ee_fixed_joints = ['m1n6s200_joint_end_effector']
 ######################################################################################################
 
 
@@ -283,7 +283,7 @@ def joint_state_define(x):
 #
 #   Please provide the name of the collision file that you have been filling out in the RelaxedIK/Config directory:
 #   ex: collision_file_name = 'collision.yaml'
-collision_file_name = 'collision_ur5.yaml'
+collision_file_name = 'collision_mico3.yaml'
 ###########################################################################################################
 
 
