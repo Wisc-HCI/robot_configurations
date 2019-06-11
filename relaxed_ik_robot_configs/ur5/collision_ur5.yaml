@@ -66,6 +66,21 @@ problem_states: [[4.9813093115323035, 2.263203347646236, -2.816123654678076, 4.0
 [4.15946867335316, -0.5039114616358367, -3.0021059397706042, -6.0042118795412085, -0.42223005264249647, -0.6534512719467198]]
 boxes:
 spheres:
+  - name: wrist_1
+    parameters: .045
+    coordinate_frame: 5
+    rotation: [0,0,0]
+    translation: [0,0,-0.02]
+  - name: wrist_2
+    parameters: .045
+    coordinate_frame: 6
+    rotation: [0,0,0]
+    translation: [-0.02,0,0]
+  - name: wrist_3
+    parameters: .05
+    coordinate_frame: 7
+    rotation: [0,0,0]
+    translation: [0.02,0,0]
 ellipsoids:
 capsules:
 cylinders:
