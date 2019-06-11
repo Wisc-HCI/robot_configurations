@@ -29,3 +29,14 @@ roslaunch relaxed_ik preprocessing_julia.launch
 roslaunch relaxed_ik preprocessing_python.launch
 ```
 You are now ready to use Relaxed-IK!
+
+## Ready
+
+- UR5
+
+## In Progress
+
+- UR3
+- Mico
+- Mico2
+- Mico3
