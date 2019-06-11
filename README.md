@@ -9,9 +9,9 @@ with non-standard MoveIt configurations and/or robot descriptions.
 To install, simply clone the repository into your catkin workspace and install
 the relevant dependencies for the robot being used (see below). Note that MoveIt
 should be installed. If using only the robot descriptions for an alternate planner
-(such as [Relaxed-IK](https://github.com/uwgraphics/relaxed_ik)) then either copy
-the relevant URDFs or delete the unnecessary
-packages from local repository clone.
+(such as [Relaxed-IK](https://github.com/uwgraphics/relaxed_ik)) then refer to the
+[sub-package documentation](./relaxed_ik_robot_configs/README.md) to setup
+configurations along with the official Relaxed-IK setup documentation.
 
 When extending this repository, ensure that contributions do not fail to build
 when dependencies are not installed. As an example, if using a UR5 then Kinova
@@ -37,14 +37,20 @@ dependencies should not be required for catkin_make to successfully build.
   - (optional) [moveit](http://wiki.ros.org/moveit)
   - (optional) [uwgraphics/relaxed_ik](https://github.com/uwgraphics/relaxed_ik)
 
-## Todo
-- Create relaxed ik ur3 urdf
-- Create relaxed ik m1n6s300 urdf
-- Create relaxed ik m1n6s robotiq 85 urdf
-
 ## Changelog
 
-### 1.0.1 - 2019-09-29
+### 1.0.2 - 2019-06-10
+### Added
+- Added relaxek_ik_robot_configs sub-package (still in progress)
+  - UR5 written
+  - UR3, Mico, Mico2, Mico3 stubbed
+
+### Changed
+- Removed relaxed_ik data from robot_descriptions (now in separate)
+- Updated high-level urdfs that reference relaxed_ik_configurations
+- Updated mico moveit urdfs and configs to point to correct urdfs
+
+### 1.0.1 - 2019-06-09
 ### Added
 - Added relaxed-ik usable urdfs and supporting urdfs with robotiq 85 gripper
 - Added Todo field in README

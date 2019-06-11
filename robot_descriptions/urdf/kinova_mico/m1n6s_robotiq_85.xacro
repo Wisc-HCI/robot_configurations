@@ -16,7 +16,7 @@
 	<link name="base_link" />
 
 	<!-- M1N6S Mico Arm -->
-	<xacro:include filename="$(find m1n6s_robotiq85_moveit_config)/urdf/m1n6s.xacro" />
+	<xacro:include filename="$(find robot_descriptions)/urdf/kinova_mico/m1n6s.xacro" />
   <joint name="base_joint" type="fixed">
 		<parent link="base_link" />
 		<child link = "root" />

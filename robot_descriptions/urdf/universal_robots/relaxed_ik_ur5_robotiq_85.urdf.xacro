@@ -6,7 +6,7 @@
 	<!-- THE ROBOT -->
 
 	<!-- UR5 -->
-	<xacro:include filename="$(find robot_descriptions)/urdf/universal_robots/relaxed_ik_ur5.urdf" />
+	<xacro:include filename="$(find relaxed_ik_robot_configs)/ur5/urdf_ur5.xacro" />
 
 	<!-- Robotiq 85-->
 	<xacro:include filename="$(find robotiq_85_description)/urdf/robotiq_85_gripper.urdf.xacro" />
