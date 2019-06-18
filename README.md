@@ -26,10 +26,11 @@ dependencies should not be required for catkin_make to successfully build.
 - Kinova Mico + Robotiq 85
 
 ## Dependencies
-- UR 3 / UR 5 / UR 10
+- UR 3 (e) / UR 5 (e) / UR 10 (e)
   - [Wisc-HCI/robotiq_85_gripper](https://github.com/Wisc-HCI/robotiq_85_gripper)
   - [ros-industrial/universal_robot](https://github.com/ros-industrial/universal_robot)
   - (optional) [ros-industrial/ur_modern_driver](https://github.com/ros-industrial/ur_modern_driver)
+  - [industrial_core](wiki.ros.org/industrial_core)
 - Kinova Mico
   - [Wisc-HCI/robotiq_85_gripper](https://github.com/Wisc-HCI/robotiq_85_gripper)
   - [Kinovarobotics/kinova-ros](https://github.com/Kinovarobotics/kinova-ros)
