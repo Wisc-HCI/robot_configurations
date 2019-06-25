@@ -25,6 +25,7 @@ Currently tested with UR-Polyscope 5.3.
 
 5. If using MoveIt, need to update the universal_robot package e-series MoveIt planning context launch files.
   - Currently they point to UR3 URDFs instead of the UR3e URDFs.
+  - Alternatively use the MoveIt configuraiton provided in the robot_configurations repository.
 
 ## Setting up robotiq_driver
 
