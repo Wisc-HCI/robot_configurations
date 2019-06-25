@@ -13,7 +13,7 @@
 		<child link = "base_link" />
 		<origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
 	</joint>
-	<xacro:ur3_robot prefix="" joint_limited="true"/>
+	<xacro:ur3e_robot prefix="" joint_limited="true"/>
 
 	<!-- Robotiq 85-->
 	<xacro:include filename="$(find robotiq_85_description)/urdf/robotiq_85_gripper.urdf.xacro" />
