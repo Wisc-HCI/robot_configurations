@@ -24,21 +24,43 @@ dependencies should not be required for catkin_make to successfully build.
 - Kinova Mico + Kinova 2-Finger
 - Kinova Mico + Kinova 3-Finger
 - Kinova Mico + Robotiq 85
+- UR 3e + Robotiq 85 (in development)
 
 ## Dependencies
-- UR 3 (e) / UR 5 (e) / UR 10 (e)
+- UR 3 / UR 5 / UR 10
   - [Wisc-HCI/robotiq_85_gripper](https://github.com/Wisc-HCI/robotiq_85_gripper)
   - [ros-industrial/universal_robot](https://github.com/ros-industrial/universal_robot)
   - (optional) [ros-industrial/ur_modern_driver](https://github.com/ros-industrial/ur_modern_driver)
   - [industrial_core](wiki.ros.org/industrial_core)
+
+- [UR 3e](./SETUP_UR3E.md)
+  - [Wisc-HCI/robotiq_85_gripper](https://github.com/Wisc-HCI/robotiq_85_gripper)
+    - Must use URScript Driver!
+  - [ros-industrial/universal_robot](https://github.com/ros-industrial/universal_robot)
+    - Need version with UR e-series support (See [notes](./SETUP_UR3E.md) for changes)
+  - [industrial_core](wiki.ros.org/industrial_core)
+  - [dniewinski/ur_modern_driver](https://github.com/dniewinski/ur_modern_driver.git)
+    - Must use this fork until merged into [ros-industrial](https://github.com/ros-industrial/universal_robot) (See [notes](./SETUP_UR3E.md) for setup)
+
 - Kinova Mico
   - [Wisc-HCI/robotiq_85_gripper](https://github.com/Wisc-HCI/robotiq_85_gripper)
   - [Kinovarobotics/kinova-ros](https://github.com/Kinovarobotics/kinova-ros)
+
 - General
   - (optional) [moveit](http://wiki.ros.org/moveit)
   - (optional) [uwgraphics/relaxed_ik](https://github.com/uwgraphics/relaxed_ik)
 
 ## Changelog
+
+### 1.0.3 - 2019-06-25
+### Added
+- robot_bringup package added
+  - support for physical UR robots in lab
+- Support for UR3e started
+- Setup documentation provided
+
+### Changed
+- Updating README documentation for UR3e support
 
 ### 1.0.2 - 2019-06-10
 ### Added

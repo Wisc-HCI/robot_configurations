@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>robot_bringup</name>
+  <version>1.0.0</version>
+  <description>
+      Custom Robot Hardware launch configs for bringup of Wisc-HCI robots
+  </description>
+
+  <author>Wisc-HCI</author>
+  <maintainer email="todo@todo.todo"></maintainer>
+
+  <license>BSD</license>
+
+  <url type="repository">https://github.com/Wisc-HCI/robot_configurations</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+  </export>
+</package>
