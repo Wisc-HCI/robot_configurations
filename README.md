@@ -58,6 +58,9 @@ dependencies should not be required for catkin_make to successfully build.
   - support for physical UR robots in lab
 - Support for UR3e started
 - Setup documentation provided
+- Nao descriptions and relaxed_ik configurations
+- Updating robot_descriptions subdiretory kinova_mico to kinova
+  - changes to moveit config follows
 
 ### Changed
 - Updating README documentation for UR3e support

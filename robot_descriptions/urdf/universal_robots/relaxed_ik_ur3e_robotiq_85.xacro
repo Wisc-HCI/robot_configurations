@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<robot name="ur3_robotiq_85" xmlns:xacro="http://ros.org/wiki/xacro">
+<robot name="ur3e_robotiq_85" xmlns:xacro="http://ros.org/wiki/xacro">
 
 	<xacro:arg name="limited" default="true"/>
 
 	<!-- THE ROBOT -->
 
-	<!-- UR3 -->
-	<xacro:include filename="$(find relaxed_ik_robot_configs)/ur3/ur3.urdf" />
+	<!-- UR3e -->
+	<xacro:include filename="$(find relaxed_ik_robot_configs)/ur3e/ur3e.urdf" />
 
 	<!-- Robotiq 85-->
 	<xacro:include filename="$(find robotiq_85_description)/urdf/robotiq_85_gripper.urdf.xacro" />

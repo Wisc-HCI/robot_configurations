@@ -48,7 +48,7 @@ or negative experiences in using it.
 # Step 1b: Please set the following variable to the file name of your robot urdf.  For example, for the
 #   ur5 robot urdf already in the urdfs folder, this variable would read 'ur5.urdf'
 #   ex: urdf_file_name = 'ur5.urdf'
-urdf_file_name = 'ur3.urdf'
+urdf_file_name = 'ur3e.urdf'
 ######################################################################################################
 
 
@@ -62,7 +62,7 @@ fixed_frame = 'base_link'
 # Step 1d: At the end of this walk-through, there will be a central yaml file automatically generated that
 #   will contain information about your robot setup.  Please provide a name for that file.
 #   ex: info_file_name = 'ur5_info.yaml'
-info_file_name = 'info_ur3.yaml'
+info_file_name = 'info_ur3e.yaml'
 ######################################################################################################
 
 
@@ -283,7 +283,7 @@ def joint_state_define(x):
 #
 #   Please provide the name of the collision file that you have been filling out in the RelaxedIK/Config directory:
 #   ex: collision_file_name = 'collision.yaml'
-collision_file_name = 'collision_ur3.yaml'
+collision_file_name = 'collision_ur3e.yaml'
 ###########################################################################################################
 
 
