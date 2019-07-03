@@ -31,7 +31,7 @@ dependencies should not be required for catkin_make to successfully build.
   - [Wisc-HCI/robotiq_85_gripper](https://github.com/Wisc-HCI/robotiq_85_gripper)
   - [ros-industrial/universal_robot](https://github.com/ros-industrial/universal_robot)
   - (optional) [ros-industrial/ur_modern_driver](https://github.com/ros-industrial/ur_modern_driver)
-  - [industrial_core](wiki.ros.org/industrial_core)
+  - [industrial_core](https://wiki.ros.org/industrial_core)
 
 - [UR 3e](./SETUP_UR3E.md)
   - [Wisc-HCI/robotiq_85_gripper](https://github.com/Wisc-HCI/robotiq_85_gripper)
