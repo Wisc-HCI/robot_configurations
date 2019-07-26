@@ -32,7 +32,7 @@
   <arg name="max_velocity" default="10.0"/> <!-- [rad/s] -->
 
   <!-- driver -->
-  <node name="ur_driver" pkg="ur_modern_driver" type="ur_driver" output="screen">
+  <node name="ur_driver" pkg="ur_modern_driver" type="ur_driver">
   <!-- copy the specified IP address to be consistant with ROS-Industrial spec. -->
     <param name="prefix" type="str" value="$(arg prefix)" />
     <param name="robot_ip_address" type="str" value="$(arg robot_ip)" />
