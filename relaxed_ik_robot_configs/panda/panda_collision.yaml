@@ -11,6 +11,8 @@ sample_states: [
 [-0.28, -0.18, 1.44, -3.01, -2.34, 3.16, -0.88],
 [-0.28, 0.63, 0.18, -2.94, -2.34, 0.41, -0.88]
 ]
+training_states:
+problem_states:
 boxes:
  - name: table_1
    parameters: [1.5, 1.5, 0.01] # r
