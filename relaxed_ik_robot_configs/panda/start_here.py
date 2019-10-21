@@ -61,6 +61,12 @@ urdf_file_name = 'panda_arm_hand.urdf'
 fixed_frame = 'panda_link0'
 ######################################################################################################
 
+######################################################################################################
+# Step 1d: At the end of this walk-through, there will be a central yaml file automatically generated that
+#   will contain information about your robot setup.  Please provide a name for that file.
+#   ex: info_file_name = 'ur5_info.yaml'
+info_file_name = 'panda_info.yaml'
+######################################################################################################
 
 ######################################################################################################
 # Step 2b: To test that your urdf is being read correctly, run the following command:
