@@ -15,7 +15,7 @@ configurations along with the official Relaxed-IK setup documentation.
 
 When extending this repository, ensure that contributions do not fail to build
 when dependencies are not installed. As an example, if using a UR5 then Kinova
-dependencies should not be required for catkin_make to successfully build.
+dependencies should not be required for catkin_make to successfully build. A notable exception is for MoveIt, which if not installed may necessitate deletion of `*_moveit_config` directories.
 
 ## Robots
 - UR 3 + Robotiq 85
@@ -24,21 +24,63 @@ dependencies should not be required for catkin_make to successfully build.
 - Kinova Mico + Kinova 2-Finger
 - Kinova Mico + Kinova 3-Finger
 - Kinova Mico + Robotiq 85
+- UR 3e + Robotiq 85 (in development)
+- Franka Emika Panda (in development)
 
 ## Dependencies
-- UR 3 (e) / UR 5 (e) / UR 10 (e)
+- Universal Robots UR 3 / UR 5 / UR 10 / UR 3e
   - [Wisc-HCI/robotiq_85_gripper](https://github.com/Wisc-HCI/robotiq_85_gripper)
-  - [ros-industrial/universal_robot](https://github.com/ros-industrial/universal_robot)
-  - (optional) [ros-industrial/ur_modern_driver](https://github.com/ros-industrial/ur_modern_driver)
-  - [industrial_core](wiki.ros.org/industrial_core)
+    - Use the remote serial version of the driver
+  - [fmauch/universal_robot](https://github.com/fmauch/universal_robot)
+    - Use this fork until merged into [ros-industrial](https://github.com/ros-industrial/universal_robot)
+  - [industrial_core](wiki.ros.org/industrial_core) via `apt install ros-<VERSION>-industrial-core`
+  - (Optional) [UniversalRobots/Universal_Robots_ROS_Driver](https://github.com/UniversalRobots/Universal_Robots_ROS_Driver)
+
 - Kinova Mico
   - [Wisc-HCI/robotiq_85_gripper](https://github.com/Wisc-HCI/robotiq_85_gripper)
   - [Kinovarobotics/kinova-ros](https://github.com/Kinovarobotics/kinova-ros)
+
+- Franka Emika Panda
+  - [frankaemika/franka_ros](https://github.com/frankaemika/franka_ros)
+
 - General
-  - (optional) [moveit](http://wiki.ros.org/moveit)
-  - (optional) [uwgraphics/relaxed_ik](https://github.com/uwgraphics/relaxed_ik)
+  - (Optional) [moveit](http://wiki.ros.org/moveit) vai `apt install ros-<VERSION>-moveit`
+  - (Optional) [uwgraphics/relaxed_ik](https://github.com/uwgraphics/relaxed_ik)
+
+## Deprecated Dependencies
+- (Deprecated) Universal Robots UR 3 / UR 5 / UR 10
+  - [Wisc-HCI/robotiq_85_gripper](https://github.com/Wisc-HCI/robotiq_85_gripper)
+  - [ros-industrial/universal_robot](https://github.com/ros-industrial/universal_robot)
+  - (Optional) [ros-industrial/ur_modern_driver](https://github.com/ros-industrial/ur_modern_driver)
+  - [industrial_core](https://wiki.ros.org/industrial_core) via `apt install ros-<VERSION>-industrial-core`
+
+- (Deprecated) Universal Robots [UR 3e](./_documentation/OLD_SETUP_UR3E.md)
+  - [Wisc-HCI/robotiq_85_gripper](https://github.com/Wisc-HCI/robotiq_85_gripper)
+    - Must use URScript Driver!
+  - [ros-industrial/universal_robot](https://github.com/ros-industrial/universal_robot)
+    - Need version with UR e-series support (See [notes](./_documentation/OLD_SETUP_UR3E.md) for changes)
+  - [industrial_core](wiki.ros.org/industrial_core) via `apt install ros-<VERSION>-industrial-core`
+  - [dniewinski/ur_modern_driver](https://github.com/dniewinski/ur_modern_driver.git)
+    - Must use this fork until merged into [ros-industrial](https://github.com/ros-industrial/universal_robot) (See [notes](./_documentation/OLD_SETUP_UR3E.md) for setup)
 
 ## Changelog
+
+### 1.0.4 - 2020-06-28
+- updated README documentation for UR robots usng Universal_Robots_ROS_Driver
+- updated README documentation for Panda robot
+
+### 1.0.3 - 2019-06-25
+### Added
+- robot_bringup package added
+  - support for physical UR robots in lab
+- Support for UR3e started
+- Setup documentation provided
+- Nao descriptions and relaxed_ik configurations
+- Updating robot_descriptions subdiretory kinova_mico to kinova
+  - changes to moveit config follows
+
+### Changed
+- Updating README documentation for UR3e support
 
 ### 1.0.2 - 2019-06-10
 ### Added

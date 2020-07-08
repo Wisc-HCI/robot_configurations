@@ -1,20 +1,19 @@
 <?xml version="1.0"?>
-<robot name="ur3_robotiq_85" xmlns:xacro="http://ros.org/wiki/xacro">
-
+<robot name="ur3e_robotiq_85" xmlns:xacro="http://ros.org/wiki/xacro">
 
 	<xacro:arg name="limited" default="true"/>
 
 	<!-- THE ROBOT -->
 	<link name="world" />
 
-	<!-- UR3 -->
-	<xacro:include filename="$(find ur_description)/urdf/ur3.urdf.xacro" />
+	<!-- UR3e -->
+	<xacro:include filename="$(find ur_e_description)/urdf/ur3e.urdf.xacro" />
 	<joint name="world_joint" type="fixed">
 		<parent link="world" />
 		<child link = "base_link" />
 		<origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
 	</joint>
-	<xacro:ur3_robot prefix="" joint_limited="true"/>
+	<xacro:ur3e_robot prefix="" joint_limited="true"/>
 
 	<!-- Robotiq 85-->
 	<xacro:include filename="$(find robotiq_85_description)/urdf/robotiq_85_gripper.urdf.xacro" />
