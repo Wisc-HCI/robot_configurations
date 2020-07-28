@@ -136,7 +136,7 @@ ee_fixed_joints = ['panda_joint8']
 #   The configuration should be a single list of values for each joint's rotation (in radians) adhering
 #   to the joint order you specified in Step 3b
 #   ex: starting_config = [ 3.12769839, -0.03987385, -2.07729916, -1.03981438, -1.58652782, -1.5710159 ]
-starting_config = [0, 0, 0, -1.5, 0, 1.5, 0]
+starting_config = [0.0, 0.0, -1.5, 0.0, 1.5, 0.0]
 ######################################################################################################
 
 

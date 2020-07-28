@@ -18,7 +18,7 @@ refer to that file for further documentation.
 
 ```
 roslaunch relaxed_ik generate_info_file.launch
-roslaunch relaxed_ik load_info_file.launch info_file_name:=info_robot.yaml
+roslaunch relaxed_ik load_info_file.launch info_file_name:=info_<robot>.yaml
 ```
 
 Then preprocess according to your use case.
@@ -28,6 +28,9 @@ roslaunch relaxed_ik preprocessing_julia.launch
 roslaunch relaxed_ik preprocessing_python.launch
 ```
 You are now ready to use Relaxed-IK!
+
+### Caveats
+Rust requires configuration values in the `start_here.py` to be floating point. That is, integer values should be appended with `.0`.
 
 ## Ready
 
