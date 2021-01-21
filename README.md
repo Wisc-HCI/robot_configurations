@@ -2,7 +2,7 @@
 
 ## Summary
 Provides a single repository for robot configurations used in lab projects/studies
-with non-standard MoveIt configurations and/or robot descriptions.
+with non-standard MoveIt configurations and/or custom robot descriptions.
 
 ## Workflow
 
