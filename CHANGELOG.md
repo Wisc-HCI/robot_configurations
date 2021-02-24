@@ -1,5 +1,8 @@
 ## Changelog
 
+### 1.0.6 - 2021-02-24
+- moveit_robot_configs updated package build and run dependencies for robot_descriptions
+
 ### 1.0.5 - 2021-01-21
 - Added panda_kinetic_intertial URDF, needed for Unity-ROS# robot importing
 - Changelog is now separate from README
