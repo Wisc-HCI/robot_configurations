@@ -66,5 +66,5 @@ dependencies should not be required for catkin_make to successfully build. A not
   - [ros-industrial/universal_robot](https://github.com/ros-industrial/universal_robot)
     - Need version with UR e-series support (See [notes](./_documentation/OLD_SETUP_UR3E.md) for changes)
   - [industrial_core](wiki.ros.org/industrial_core) via `apt install ros-<VERSION>-industrial-core`
-  - [dniewinski/ur_modern_driver](https://github.com/dniewinski/ur_modern_driver.git)
+  - [dniewinski/ur_modern_driver](https://github.com/dniewinski/ur_modern_driver)
     - Must use this fork until merged into [ros-industrial](https://github.com/ros-industrial/universal_robot) (See [notes](./_documentation/OLD_SETUP_UR3E.md) for setup)
