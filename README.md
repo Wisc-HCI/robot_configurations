@@ -17,6 +17,9 @@ When extending this repository, ensure that contributions do not fail to build
 when dependencies are not installed. As an example, if using a UR5 then Kinova
 dependencies should not be required for catkin_make to successfully build. A notable exception is for MoveIt, which if not installed may necessitate deletion of `*_moveit_config` directories.
 
+Due to this a la carte approach to providing configurations, rosdep will not work as 
+desired on this meta-package. Users will need to manually install the side-dependencies like kinova_description or universal_robots ROS packages.
+
 ## Robots
 - UR 3 + Robotiq 85
 - UR 5 + Robotiq 85

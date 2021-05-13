@@ -1,5 +1,9 @@
 ## Changelog
 
+### 1.0.7 - 2021-05-13
+- Removed non-generalized `run_depend` markup from from package.xmls
+- Updated README to clarify rosdep behavior
+
 ### 1.0.6 - 2021-02-24
 - moveit_robot_configs updated package build and run dependencies for robot_descriptions
 
